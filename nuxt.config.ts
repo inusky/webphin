@@ -22,10 +22,5 @@ export default defineNuxtConfig({
         process.env.RECEIVER_EMAIL || "info.thembamentor@gmail.com",
     },
   },
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
+  modules: ["@nuxtjs/tailwindcss"],
 });
