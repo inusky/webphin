@@ -42,10 +42,13 @@
             />
             <div class="about-text">
               <p>
-                We focus on measurable outcomes: faster launches, steady growth and reliable
-                systems. We ship quickly and polish later — so you can start seeing results.
+                We focus on measurable outcomes: faster launches, steady growth
+                and reliable systems. We ship quickly and polish later — so you
+                can start seeing results.
               </p>
-              <NuxtLink to="/website-building" class="btn btn-outline">See our process</NuxtLink>
+              <NuxtLink to="/website-building" class="btn btn-outline"
+                >See our process</NuxtLink
+              >
             </div>
           </div>
         </div>

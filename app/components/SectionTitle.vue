@@ -7,5 +7,9 @@
 </template>
 
 <script setup lang="ts">
-const props = defineProps<{ kicker?: string; title: string; subtitle?: string }>()
+const props = defineProps<{
+  kicker?: string;
+  title: string;
+  subtitle?: string;
+}>();
 </script>

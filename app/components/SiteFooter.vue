@@ -4,8 +4,8 @@
       <div class="container col about max-width">
         <h3 class="site-title">Webphin</h3>
         <p class="muted">
-          We build high-converting websites, automated email campaigns and reliable backend SaaS
-          products.
+          We build high-converting websites, automated email campaigns and
+          reliable backend SaaS products.
         </p>
       </div>
 
@@ -20,14 +20,18 @@
         <h3>Contact</h3>
         <p>
           Email:
-          <a :href="'mailto:' + $config.public.receiverEmail">{{ $config.public.receiverEmail }}</a>
+          <a :href="'mailto:' + $config.public.receiverEmail">{{
+            $config.public.receiverEmail
+          }}</a>
         </p>
         <p>Phone: +91 95075 97051</p>
       </div>
     </div>
 
     <div class="footer-bottom">
-      <div class="container">© {{ new Date().getFullYear() }} Webphin. All rights reserved.</div>
+      <div class="container">
+        © {{ new Date().getFullYear() }} Webphin. All rights reserved.
+      </div>
     </div>
   </footer>
 </template>

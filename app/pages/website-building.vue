@@ -9,8 +9,9 @@
     <div class="page-grid">
       <div class="page-nav-style">
         <p>
-          We build Nuxt/Vue static or server-rendered websites with CMS or headless options. From
-          landing pages to full product sites — performance is priority.
+          We build Nuxt/Vue static or server-rendered websites with CMS or
+          headless options. From landing pages to full product sites —
+          performance is priority.
         </p>
 
         <h4>Packages</h4>
@@ -28,6 +29,6 @@
 
 <script setup lang="ts">
 useHead({
-  title: 'Webphin - Website Building',
-})
+  title: "Webphin - Website Building",
+});
 </script>
